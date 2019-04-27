@@ -1,0 +1,43 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ROOT se aplica a todo el html*/
+:root {
+    /* declaro la variable naranja y además le asigno el valor #FF9600*/
+    --naranja: #ff9600;
+    --negro: #000000;
+    --gris: #333333;
+    --blanco: #FFFFFF;
+}
+
+body {
+    background-color: var(--gris);
+    background-image: url(images/pattern.jpg);
+    font-family: arial, sans-serif;
+}
+
+.cabecera, .contenedor {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.cabecera {
+    color: var(--naranja);
+    display: flex;
+    /* separamos los elementos en horizontal */
+    justify-content: space-between;
+    /* centramos en vertical los dos elementos */
+    align-items: center;
+    padding: 20px 0;
+    font-size: 12px;
+}
+
+.contenedor {
+    /* aplico la variable como color de fondo usando var() */
+    background-color: var(--blanco);
+}
+
+
+
