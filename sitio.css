@@ -39,5 +39,45 @@ body {
     background-color: var(--blanco);
 }
 
+.nav {
+    background-color: var(--naranja);
+    /* separo usando el nav así me llevo el margen a todas las páginas */
+    margin-bottom: 30px;
+}
 
+.nav-lista {
+    /* elimina los pintitos de la lista */
+    list-style: none;
+    background-color: var(--naranja);
+    display: flex;
+    margin-left: 20px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav-lista_item {
+    padding:10px;
+    
+}
+
+.nav a {
+    display: block;
+    color: var(--blanco);
+    border-right: 1px solid var(--blanco);
+    padding-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    background-color: yellow;
+    text-decoration: underline;
+    color: var(--naranja);
+}
+
+.slider{
+    background-color: white;
+    /* la imagen la centro como si fuera texto, pero siempre se aplica al elemento padre en este caso, .slider */
+    text-align: center;
+}
 
