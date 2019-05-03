@@ -18,6 +18,15 @@ body {
     font-family: arial, sans-serif;
 }
 
+
+
+
+
+/* 
+---------------------------------------------------
+CABECERA
+---------------------------------------------------
+*/
 .cabecera, .contenedor {
     max-width: 1000px;
     margin: 0 auto;
@@ -75,9 +84,76 @@ body {
     color: var(--naranja);
 }
 
-.slider{
+
+
+
+/* 
+--------------------------------------------------
+SLIDER 
+--------------------------------------------------
+*/
+.slider {
     background-color: white;
     /* la imagen la centro como si fuera texto, pero siempre se aplica al elemento padre en este caso, .slider */
     text-align: center;
+    margin-bottom: 50px;
 }
+
+
+
+
+/* 
+---------------------------------------------------
+PRINCIPAL
+---------------------------------------------------
+*/
+.principal {
+    background-color: beige;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 30px;
+
+}
+
+.categorias {
+    margin-left: 30px;
+
+}
+
+.cat {
+    list-style: none;
+    padding-left: 25px;
+}
+
+.cat-title {
+    margin-bottom: 10px;
+}
+
+.cat-list_item{
+    border-bottom: 1px dashed var(--negro);
+}
+
+.cat a {
+    display: block;
+    text-decoration: none;
+    padding: 8px 0;
+    color: var(--negro);
+
+
+
+}
+
+.cat a:hover{
+    background-color: #ff9600;
+}
+
+
+.productos {
+    background-color: palevioletred;
+}
+
+
+
+
+
 
